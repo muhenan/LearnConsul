@@ -1,0 +1,44 @@
+# Ignore Maven and Gradle build directories
+**/target/
+**/out/
+**/bin/
+**/.mvn/
+!mvn/wrapper/maven-wrapper.jar
+
+# Ignore IDE settings and workspace files
+**/.idea/
+**/.vscode/
+*.iml
+*.ipr
+*.iws
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+**/logs/
+**/*.log
+**/*.trace
+
+# Ignore dependency caches
+**/.m2/
+**/.gradle/
+**/node_modules/
+
+# Ignore compiled Java class files
+**/*.class
+
+# Ignore Spring Boot environment and config files
+**/*.properties~
+**/application-*.yml
+**/application-*.yaml
+.env
+
+# Ignore Git-related metadata for submodules (if used)
+**/.git/
